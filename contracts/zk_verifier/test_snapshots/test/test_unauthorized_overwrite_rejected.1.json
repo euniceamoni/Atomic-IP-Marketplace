@@ -1,6 +1,6 @@
 {
   "generators": {
-    "address": 2,
+    "address": 3,
     "nonce": 0
   },
   "auth": [
@@ -21,7 +21,7 @@
                   "u64": 1
                 },
                 {
-                  "bytes": "69cc13ed65279504b4529dc30c3cf2a0f7b9756beb74db1ce4ccebbb1d5c2cae"
+                  "bytes": "2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b"
                 }
               ]
             }
@@ -78,7 +78,7 @@
                 },
                 "durability": "persistent",
                 "val": {
-                  "bytes": "69cc13ed65279504b4529dc30c3cf2a0f7b9756beb74db1ce4ccebbb1d5c2cae"
+                  "bytes": "2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b"
                 }
               }
             },
@@ -157,6 +157,39 @@
                     "storage": null
                   }
                 }
+              }
+            },
+            "ext": "v0"
+          },
+          6311999
+        ]
+      ],
+      [
+        {
+          "contract_data": {
+            "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+            "key": {
+              "ledger_key_nonce": {
+                "nonce": 801925984706572462
+              }
+            },
+            "durability": "temporary"
+          }
+        },
+        [
+          {
+            "last_modified_ledger_seq": 0,
+            "data": {
+              "contract_data": {
+                "ext": "v0",
+                "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFCT4",
+                "key": {
+                  "ledger_key_nonce": {
+                    "nonce": 801925984706572462
+                  }
+                },
+                "durability": "temporary",
+                "val": "void"
               }
             },
             "ext": "v0"
